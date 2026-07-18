@@ -1,0 +1,262 @@
+backend:
+  name: git-gateway
+  branch: main
+media_folder: images
+public_folder: images
+collections:
+- name: content
+  label: Website Content
+  files:
+  - name: site
+    label: Rähle Website Content
+    file: content.json
+    fields:
+    - label: Hero Eyebrow
+      name: hero_eyebrow
+      widget: string
+    - label: Hero Headline 1
+      name: hero_headline_1
+      widget: string
+    - label: Hero Headline 2
+      name: hero_headline_2
+      widget: string
+    - label: Hero Sub
+      name: hero_sub
+      widget: text
+    - label: Hero Image
+      name: hero_image
+      widget: image
+      choose_url: false
+    - label: Hero Cta Configure
+      name: hero_cta_configure
+      widget: string
+    - label: Hero Cta Order
+      name: hero_cta_order
+      widget: string
+    - label: Break1 Image
+      name: break1_image
+      widget: image
+      choose_url: false
+    - label: Break1 Eyebrow
+      name: break1_eyebrow
+      widget: string
+    - label: Break1 Text
+      name: break1_text
+      widget: text
+    - label: Break2 Image
+      name: break2_image
+      widget: image
+      choose_url: false
+    - label: Break2 Eyebrow
+      name: break2_eyebrow
+      widget: string
+    - label: Break2 Text
+      name: break2_text
+      widget: text
+    - label: Break3 Image
+      name: break3_image
+      widget: image
+      choose_url: false
+    - label: Break3 Eyebrow
+      name: break3_eyebrow
+      widget: string
+    - label: Break3 Text
+      name: break3_text
+      widget: text
+    - label: History Eyebrow
+      name: history_eyebrow
+      widget: string
+    - label: History Headline
+      name: history_headline
+      widget: text
+      hint: Use a new line for each line of the heading.
+    - label: History P1
+      name: history_p1
+      widget: text
+    - label: History P2
+      name: history_p2
+      widget: text
+    - label: History Image
+      name: history_image
+      widget: image
+      choose_url: false
+    - label: Spec Built
+      name: spec_built
+      widget: string
+    - label: Spec Tribute
+      name: spec_tribute
+      widget: string
+    - label: Spec Chassis
+      name: spec_chassis
+      widget: string
+    - label: Spec Weight
+      name: spec_weight
+      widget: string
+    - label: Spec Body
+      name: spec_body
+      widget: string
+    - label: Spec Seating
+      name: spec_seating
+      widget: string
+    - label: Craft Eyebrow
+      name: craft_eyebrow
+      widget: string
+    - label: Craft Headline
+      name: craft_headline
+      widget: text
+      hint: Use a new line for each line of the heading.
+    - label: Craft Ref Tag
+      name: craft_ref_tag
+      widget: string
+    - label: Craft Ref Title
+      name: craft_ref_title
+      widget: string
+    - label: Craft Ref Val1
+      name: craft_ref_val1
+      widget: string
+    - label: Craft Ref Val2
+      name: craft_ref_val2
+      widget: string
+    - label: Craft Ref Val3
+      name: craft_ref_val3
+      widget: string
+    - label: Craft Ref Val4
+      name: craft_ref_val4
+      widget: string
+    - label: Craft Ref Val5
+      name: craft_ref_val5
+      widget: string
+    - label: Craft Ref Val6
+      name: craft_ref_val6
+      widget: string
+    - label: Craft Tribute Tag
+      name: craft_tribute_tag
+      widget: string
+    - label: Craft Tribute Title
+      name: craft_tribute_title
+      widget: string
+    - label: Craft Tribute Val1
+      name: craft_tribute_val1
+      widget: string
+    - label: Craft Tribute Val2
+      name: craft_tribute_val2
+      widget: string
+    - label: Craft Tribute Val3
+      name: craft_tribute_val3
+      widget: string
+    - label: Craft Tribute Val4
+      name: craft_tribute_val4
+      widget: string
+    - label: Craft Tribute Val5
+      name: craft_tribute_val5
+      widget: string
+    - label: Craft Tribute Val6
+      name: craft_tribute_val6
+      widget: string
+    - label: Eng Eyebrow
+      name: eng_eyebrow
+      widget: string
+    - label: Eng Headline
+      name: eng_headline
+      widget: text
+      hint: Use a new line for each line of the heading.
+    - label: Eng1 Title
+      name: eng1_title
+      widget: string
+    - label: Eng1 Desc
+      name: eng1_desc
+      widget: text
+    - label: Eng2 Title
+      name: eng2_title
+      widget: string
+    - label: Eng2 Desc
+      name: eng2_desc
+      widget: text
+    - label: Eng3 Title
+      name: eng3_title
+      widget: string
+    - label: Eng3 Desc
+      name: eng3_desc
+      widget: text
+    - label: Eng4 Title
+      name: eng4_title
+      widget: string
+    - label: Eng4 Desc
+      name: eng4_desc
+      widget: text
+    - label: Eng5 Title
+      name: eng5_title
+      widget: string
+    - label: Eng5 Desc
+      name: eng5_desc
+      widget: text
+    - label: Eng6 Title
+      name: eng6_title
+      widget: string
+    - label: Eng6 Desc
+      name: eng6_desc
+      widget: text
+    - label: Eng Image1
+      name: eng_image1
+      widget: string
+    - label: Eng Image1 Caption
+      name: eng_image1_caption
+      widget: string
+    - label: Eng Image2
+      name: eng_image2
+      widget: string
+    - label: Eng Image2 Caption
+      name: eng_image2_caption
+      widget: string
+    - label: Config Eyebrow
+      name: config_eyebrow
+      widget: string
+    - label: Config Headline
+      name: config_headline
+      widget: text
+      hint: Use a new line for each line of the heading.
+    - label: Config Body Desc
+      name: config_body_desc
+      widget: text
+    - label: Config Seating Desc
+      name: config_seating_desc
+      widget: text
+    - label: Config Engine Desc
+      name: config_engine_desc
+      widget: text
+    - label: Config Color Desc
+      name: config_color_desc
+      widget: text
+    - label: Color1 Name
+      name: color1_name
+      widget: string
+    - label: Color2 Name
+      name: color2_name
+      widget: string
+    - label: Color3 Name
+      name: color3_name
+      widget: string
+    - label: Color4 Name
+      name: color4_name
+      widget: string
+    - label: Color5 Name
+      name: color5_name
+      widget: string
+    - label: Config Image
+      name: config_image
+      widget: image
+      choose_url: false
+    - label: Config Render Caption Html
+      name: config_render_caption_html
+      widget: text
+      hint: Keep the <span id="colorName">...</span> tag intact.
+    - label: Quote Headline
+      name: quote_headline
+      widget: text
+      hint: Use a new line for each line of the heading.
+    - label: Quote Sub
+      name: quote_sub
+      widget: text
+    - label: Footer Text
+      name: footer_text
+      widget: string
