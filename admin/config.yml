@@ -11,6 +11,14 @@ collections:
     label: Rähle Website Content
     file: content.json
     fields:
+    - label: Logo Light Image
+      name: logo_light_image
+      widget: image
+      choose_url: false
+    - label: Logo Dark Image
+      name: logo_dark_image
+      widget: image
+      choose_url: false
     - label: Hero Eyebrow
       name: hero_eyebrow
       widget: string
